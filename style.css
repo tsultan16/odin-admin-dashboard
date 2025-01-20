@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    --color-theme : rgb(78, 160, 222);
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 
 .sidebar {
     border: 1px solid red;
-    background-color: rgb(78, 160, 222);
+    background-color: var(--color-theme);
     color: white;
 
     grid-column: 1 / 2;
@@ -68,6 +70,18 @@ body {
 
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+
+    display: flex;
+    align-items: center;
+    /* gap: 1em; */
+}
+
+.search-input {
+    flex: 1;
+
+    border: 0;
+    background-color: rgb(222, 220, 220);    
+    border-radius: 0.5em;
 }
 
 .header-icon {
@@ -82,6 +96,14 @@ body {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
 
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+.greeting-avatar {
+    height: 2.5em;
 }
 
 .user {
@@ -89,6 +111,15 @@ body {
 
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+.user-avatar {
+    height: 1.5em;
 }
 
 .header-nav {
@@ -96,6 +127,19 @@ body {
     
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.8em;
+}
+
+.header-btn {
+    background-color: var(--color-theme);
+    color:white;
+    border: 0;
+    border-radius: 1em;
+    padding: 0.5em 1em;
 }
 
 
