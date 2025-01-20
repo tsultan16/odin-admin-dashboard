@@ -38,6 +38,7 @@ body {
 .dashboard-icon {
     height: 1.6em;
     padding: 0 0.6em;
+    filter: invert(1);
 }
 
 .nav-item {
@@ -48,6 +49,7 @@ body {
 .nav-icon {
     height: 0.8em;
     padding: 0 0.6em;
+    filter: invert(1);
 }
 
 
