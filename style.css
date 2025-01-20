@@ -19,7 +19,7 @@ body {
 
 .sidebar {
     border: 1px solid red;
-    background-color: rgb(120, 179, 225);
+    background-color: rgb(78, 160, 222);
     color: white;
 
     grid-column: 1 / 2;
@@ -59,7 +59,45 @@ body {
     grid-column: 2 / 4;
     grid-row: 1 / 2;
 
+    display: grid;
+    grid-template-columns: 3fr 2fr;
 }
+
+.search-bar {
+    border: 1px solid red; 
+
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.header-icon {
+    height: 0.8em;
+    padding: 0 0.6em;
+    /* filter: invert(1); */
+}
+
+.greeting {
+    border: 1px solid orange; 
+
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+}
+
+.user {
+    border: 1px solid purple; 
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.header-nav {
+    border: 1px solid cyan; 
+    
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
 
 .projects {
     border: 1px solid yellow;
