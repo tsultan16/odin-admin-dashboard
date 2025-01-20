@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.sidebar {
+    border: 1px solid red;
+    background-color: rgb(120, 179, 225);
+    color: white;
+}
+
+.header {
+    border: 1px solid green;
+}
+
+.content {
+    border: 1px solid blue;
+    background-color: rgb(222, 220, 220);
+}
