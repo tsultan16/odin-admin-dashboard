@@ -70,9 +70,13 @@ body {
     grid-template-columns: 3fr 2fr;
 }
 
+.header > * {
+    padding: 0.6em 1em;
+}
+
 .search-bar {
     border: 1px solid red; 
-
+    
     grid-column: 1 / 2;
     grid-row: 1 / 2;
 
@@ -168,6 +172,9 @@ body {
 }
 
 .project-card {
+    min-height: 10em;
+    /* justify-items: stretch; */
+
     background-color: var(--color-card);
     border-radius: 0.5em;
     padding: 1em;
